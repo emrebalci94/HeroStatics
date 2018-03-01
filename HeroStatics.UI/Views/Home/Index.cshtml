@@ -1,0 +1,17 @@
+﻿@model List<HeroStatics.Entity.Concrete.Hero>
+@{
+    ViewData["Title"] = "Index";
+}
+
+<h2>Index</h2>
+<ul>
+    @foreach (var item in Model)
+    {
+        <li>@item.Name</li>
+    }
+</ul>
+
+    <p>@TempData["mesaj"]</p>
+
+<a asp-controller="Home" asp-action="Index">Deneme</a>
+<a asp-controller="Home" asp-action="YeniHero">Yeni Hero</a>

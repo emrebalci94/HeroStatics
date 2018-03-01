@@ -1,0 +1,9 @@
+C:\Users\EXT02D13704\Desktop\Denemeler\HeroStatics\HeroStatics.Core\bin\Debug\netcoreapp2.0\HeroStatics.Core.deps.json
+C:\Users\EXT02D13704\Desktop\Denemeler\HeroStatics\HeroStatics.Core\bin\Debug\netcoreapp2.0\HeroStatics.Core.dll
+C:\Users\EXT02D13704\Desktop\Denemeler\HeroStatics\HeroStatics.Core\obj\Debug\netcoreapp2.0\HeroStatics.Core.csprojResolveAssemblyReference.cache
+C:\Users\EXT02D13704\Desktop\Denemeler\HeroStatics\HeroStatics.Core\obj\Debug\netcoreapp2.0\HeroStatics.Core.csproj.CoreCompileInputs.cache
+C:\Users\EXT02D13704\Desktop\Denemeler\HeroStatics\HeroStatics.Core\obj\Debug\netcoreapp2.0\HeroStatics.Core.AssemblyInfoInputs.cache
+C:\Users\EXT02D13704\Desktop\Denemeler\HeroStatics\HeroStatics.Core\obj\Debug\netcoreapp2.0\HeroStatics.Core.AssemblyInfo.cs
+C:\Users\EXT02D13704\Desktop\Denemeler\HeroStatics\HeroStatics.Core\bin\Debug\netcoreapp2.0\HeroStatics.Core.pdb
+C:\Users\EXT02D13704\Desktop\Denemeler\HeroStatics\HeroStatics.Core\obj\Debug\netcoreapp2.0\HeroStatics.Core.dll
+C:\Users\EXT02D13704\Desktop\Denemeler\HeroStatics\HeroStatics.Core\obj\Debug\netcoreapp2.0\HeroStatics.Core.pdb

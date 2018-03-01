@@ -1,0 +1,13 @@
+C:\Users\EXT02D13704\Desktop\Denemeler\HeroStatics\HeroStatics.DataAccess\bin\Debug\netcoreapp2.0\HeroStatics.DataAccess.deps.json
+C:\Users\EXT02D13704\Desktop\Denemeler\HeroStatics\HeroStatics.DataAccess\bin\Debug\netcoreapp2.0\HeroStatics.DataAccess.dll
+C:\Users\EXT02D13704\Desktop\Denemeler\HeroStatics\HeroStatics.DataAccess\bin\Debug\netcoreapp2.0\HeroStatics.DataAccess.pdb
+C:\Users\EXT02D13704\Desktop\Denemeler\HeroStatics\HeroStatics.DataAccess\obj\Debug\netcoreapp2.0\HeroStatics.DataAccess.csprojResolveAssemblyReference.cache
+C:\Users\EXT02D13704\Desktop\Denemeler\HeroStatics\HeroStatics.DataAccess\obj\Debug\netcoreapp2.0\HeroStatics.DataAccess.csproj.CoreCompileInputs.cache
+C:\Users\EXT02D13704\Desktop\Denemeler\HeroStatics\HeroStatics.DataAccess\obj\Debug\netcoreapp2.0\HeroStatics.DataAccess.AssemblyInfoInputs.cache
+C:\Users\EXT02D13704\Desktop\Denemeler\HeroStatics\HeroStatics.DataAccess\obj\Debug\netcoreapp2.0\HeroStatics.DataAccess.AssemblyInfo.cs
+C:\Users\EXT02D13704\Desktop\Denemeler\HeroStatics\HeroStatics.DataAccess\obj\Debug\netcoreapp2.0\HeroStatics.DataAccess.dll
+C:\Users\EXT02D13704\Desktop\Denemeler\HeroStatics\HeroStatics.DataAccess\obj\Debug\netcoreapp2.0\HeroStatics.DataAccess.pdb
+C:\Users\EXT02D13704\Desktop\Denemeler\HeroStatics\HeroStatics.DataAccess\bin\Debug\netcoreapp2.0\HeroStatics.Core.dll
+C:\Users\EXT02D13704\Desktop\Denemeler\HeroStatics\HeroStatics.DataAccess\bin\Debug\netcoreapp2.0\HeroStatics.Entity.dll
+C:\Users\EXT02D13704\Desktop\Denemeler\HeroStatics\HeroStatics.DataAccess\bin\Debug\netcoreapp2.0\HeroStatics.Entity.pdb
+C:\Users\EXT02D13704\Desktop\Denemeler\HeroStatics\HeroStatics.DataAccess\bin\Debug\netcoreapp2.0\HeroStatics.Core.pdb
