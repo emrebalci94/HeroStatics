@@ -1,0 +1,35 @@
+﻿@model NewHeroViewModel
+
+<button type="button" class="btn btn-dark" data-toggle="modal" data-target=".bd-example-modal-lg"><i class="fa fa-plus-square-o"></i> Yeni Hero Yarat</button>
+
+<div class="modal fade bd-example-modal-lg" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+            <div class="m-5">
+            <h6>Create a new hero</h6>
+                <form method="post" asp-controller="Home" asp-action="NewHero">
+                    <div class="form-group">
+                        <label for="txtName"></label>
+                        <input type="text" class="form-control" id="txtName" asp-for="Hero.Name" placeholder="Name">
+                    </div>
+                    <div class="form-group">
+                        <label for="exampleFormControlSelect1">Pick To Category</label>
+                        <select class="form-control" id="exampleFormControlSelect1" asp-items="@(new SelectList(Model.Categories,"Id","Name"))" asp-for="Hero.CategoryId">
+                            <option>Plase Choose One </option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label for="txtPower"></label>
+                        <input type="number" class="form-control" id="txtPower" asp-for="Hero.Power" placeholder="Power">
+                    </div>
+                    <div class="form-group">
+                        <label for="txtAbility"></label>
+                        <input type="number" class="form-control" id="txtAbility" asp-for="Hero.Ability" placeholder="Ability">
+                    </div>
+                    <button type="submit" class="btn btn-success"><i class="fa fa-check-circle-o"></i> Kaydet</button>
+                </form>
+
+            </div>
+        </div>
+    </div>
+</div>

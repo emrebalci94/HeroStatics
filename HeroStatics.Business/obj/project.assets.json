@@ -3440,11 +3440,11 @@
       "hideWarningsAndErrors": true
     },
     "restore": {
-      "projectUniqueName": "C:\\Users\\EXT02D13704\\Desktop\\Denemeler\\HeroStatics\\HeroStatics.Business\\HeroStatics.Business.csproj",
+      "projectUniqueName": "D:\\Github\\HeroStatics\\HeroStatics\\HeroStatics.Business\\HeroStatics.Business.csproj",
       "projectName": "HeroStatics.Business",
-      "projectPath": "C:\\Users\\EXT02D13704\\Desktop\\Denemeler\\HeroStatics\\HeroStatics.Business\\HeroStatics.Business.csproj",
+      "projectPath": "D:\\Github\\HeroStatics\\HeroStatics\\HeroStatics.Business\\HeroStatics.Business.csproj",
       "packagesPath": "C:\\Users\\EXT02D13704\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\EXT02D13704\\Desktop\\Denemeler\\HeroStatics\\HeroStatics.Business\\obj\\",
+      "outputPath": "D:\\Github\\HeroStatics\\HeroStatics\\HeroStatics.Business\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -3463,11 +3463,11 @@
       "frameworks": {
         "netcoreapp2.0": {
           "projectReferences": {
-            "C:\\Users\\EXT02D13704\\Desktop\\Denemeler\\HeroStatics\\HeroStatics.Entity\\HeroStatics.Entity.csproj": {
-              "projectPath": "C:\\Users\\EXT02D13704\\Desktop\\Denemeler\\HeroStatics\\HeroStatics.Entity\\HeroStatics.Entity.csproj"
+            "D:\\Github\\HeroStatics\\HeroStatics\\HeroStatics.Entity\\HeroStatics.Entity.csproj": {
+              "projectPath": "D:\\Github\\HeroStatics\\HeroStatics\\HeroStatics.Entity\\HeroStatics.Entity.csproj"
             },
-            "C:\\Users\\EXT02D13704\\Desktop\\Denemeler\\HeroStatics\\HeroStatics.Core\\HeroStatics.Core.csproj": {
-              "projectPath": "C:\\Users\\EXT02D13704\\Desktop\\Denemeler\\HeroStatics\\HeroStatics.Core\\HeroStatics.Core.csproj"
+            "D:\\Github\\HeroStatics\\HeroStatics\\HeroStatics.Core\\HeroStatics.Core.csproj": {
+              "projectPath": "D:\\Github\\HeroStatics\\HeroStatics\\HeroStatics.Core\\HeroStatics.Core.csproj"
             }
           }
         }

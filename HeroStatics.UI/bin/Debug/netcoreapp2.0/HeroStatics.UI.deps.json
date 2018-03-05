@@ -1,7 +1,7 @@
 {
   "runtimeTarget": {
     "name": ".NETCoreApp,Version=v2.0",
-    "signature": "e531c305d00baddce899010831a73f4f436ee99a"
+    "signature": "2059803181bafc29bbd52a5409e670cdd3d4b2c7"
   },
   "compilationOptions": {
     "defines": [
@@ -23,8 +23,10 @@
     ".NETCoreApp,Version=v2.0": {
       "HeroStatics.UI/1.0.0": {
         "dependencies": {
+          "FakeData": "1.0.0",
           "HeroStatics.Business": "1.0.0",
           "HeroStatics.DataAccess": "1.0.0",
+          "HeroStatics.Entity": "1.0.0",
           "Microsoft.AspNetCore.All": "2.0.5",
           "Microsoft.EntityFrameworkCore": "2.0.1",
           "Microsoft.EntityFrameworkCore.SqlServer": "2.0.1",
@@ -38,6 +40,14 @@
         },
         "compile": {
           "HeroStatics.UI.dll": {}
+        }
+      },
+      "FakeData/1.0.0": {
+        "runtime": {
+          "lib/FakeData.dll": {}
+        },
+        "compile": {
+          "lib/FakeData.dll": {}
         }
       },
       "Libuv/1.10.0": {
@@ -4294,6 +4304,13 @@
       "type": "project",
       "serviceable": false,
       "sha512": ""
+    },
+    "FakeData/1.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-hHp5a569gbVo7Fg/whOeDSFExhaB/cidqDTUTFxQDphsMeQhuS0AEyxfg1WunJz5W4ZOPdwEqhQJqEfUCnl9Ow==",
+      "path": "fakedata/1.0.0",
+      "hashPath": "fakedata.1.0.0.nupkg.sha512"
     },
     "Libuv/1.10.0": {
       "type": "package",

@@ -3420,11 +3420,11 @@
       "hideWarningsAndErrors": true
     },
     "restore": {
-      "projectUniqueName": "C:\\Users\\EXT02D13704\\Desktop\\Denemeler\\HeroStatics\\HeroStatics.Entity\\HeroStatics.Entity.csproj",
+      "projectUniqueName": "D:\\Github\\HeroStatics\\HeroStatics\\HeroStatics.Entity\\HeroStatics.Entity.csproj",
       "projectName": "HeroStatics.Entity",
-      "projectPath": "C:\\Users\\EXT02D13704\\Desktop\\Denemeler\\HeroStatics\\HeroStatics.Entity\\HeroStatics.Entity.csproj",
+      "projectPath": "D:\\Github\\HeroStatics\\HeroStatics\\HeroStatics.Entity\\HeroStatics.Entity.csproj",
       "packagesPath": "C:\\Users\\EXT02D13704\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\EXT02D13704\\Desktop\\Denemeler\\HeroStatics\\HeroStatics.Entity\\obj\\",
+      "outputPath": "D:\\Github\\HeroStatics\\HeroStatics\\HeroStatics.Entity\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -3443,8 +3443,8 @@
       "frameworks": {
         "netcoreapp2.0": {
           "projectReferences": {
-            "C:\\Users\\EXT02D13704\\Desktop\\Denemeler\\HeroStatics\\HeroStatics.Core\\HeroStatics.Core.csproj": {
-              "projectPath": "C:\\Users\\EXT02D13704\\Desktop\\Denemeler\\HeroStatics\\HeroStatics.Core\\HeroStatics.Core.csproj"
+            "D:\\Github\\HeroStatics\\HeroStatics\\HeroStatics.Core\\HeroStatics.Core.csproj": {
+              "projectPath": "D:\\Github\\HeroStatics\\HeroStatics\\HeroStatics.Core\\HeroStatics.Core.csproj"
             }
           }
         }

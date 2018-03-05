@@ -7,3 +7,12 @@ C:\Users\EXT02D13704\Desktop\Denemeler\HeroStatics\HeroStatics.Core\obj\Debug\ne
 C:\Users\EXT02D13704\Desktop\Denemeler\HeroStatics\HeroStatics.Core\bin\Debug\netcoreapp2.0\HeroStatics.Core.pdb
 C:\Users\EXT02D13704\Desktop\Denemeler\HeroStatics\HeroStatics.Core\obj\Debug\netcoreapp2.0\HeroStatics.Core.dll
 C:\Users\EXT02D13704\Desktop\Denemeler\HeroStatics\HeroStatics.Core\obj\Debug\netcoreapp2.0\HeroStatics.Core.pdb
+D:\Github\HeroStatics\HeroStatics\HeroStatics.Core\bin\Debug\netcoreapp2.0\HeroStatics.Core.deps.json
+D:\Github\HeroStatics\HeroStatics\HeroStatics.Core\bin\Debug\netcoreapp2.0\HeroStatics.Core.dll
+D:\Github\HeroStatics\HeroStatics\HeroStatics.Core\bin\Debug\netcoreapp2.0\HeroStatics.Core.pdb
+D:\Github\HeroStatics\HeroStatics\HeroStatics.Core\obj\Debug\netcoreapp2.0\HeroStatics.Core.csprojResolveAssemblyReference.cache
+D:\Github\HeroStatics\HeroStatics\HeroStatics.Core\obj\Debug\netcoreapp2.0\HeroStatics.Core.csproj.CoreCompileInputs.cache
+D:\Github\HeroStatics\HeroStatics\HeroStatics.Core\obj\Debug\netcoreapp2.0\HeroStatics.Core.AssemblyInfoInputs.cache
+D:\Github\HeroStatics\HeroStatics\HeroStatics.Core\obj\Debug\netcoreapp2.0\HeroStatics.Core.AssemblyInfo.cs
+D:\Github\HeroStatics\HeroStatics\HeroStatics.Core\obj\Debug\netcoreapp2.0\HeroStatics.Core.dll
+D:\Github\HeroStatics\HeroStatics\HeroStatics.Core\obj\Debug\netcoreapp2.0\HeroStatics.Core.pdb

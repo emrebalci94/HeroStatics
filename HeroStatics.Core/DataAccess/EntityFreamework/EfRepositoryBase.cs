@@ -75,11 +75,23 @@ namespace HeroStatics.Core.DataAccess.EntityFreamework
                 _dbContext.SaveChanges();
                 return true;
             }
-            catch
+            catch( Exception ex)
             {
                 // TODO: Log Exceptions
                 return false;
             }
+        }
+
+        public int GetListCount()
+        {
+            return Table.Count();
+        }
+
+        public IQueryable<T> GetQueryable(params Expression<Func<T, object>>[] includes)
+        {
+            var query = GetQueryable();  //Aggrate methodu Queryable beklediği için direk Table ı veremedik.
+            return includes != null ?
+                 includes.Aggregate(query, (current, include) => current.Include(include)) : query; //Aggregate methodu ilgili Queryable a parametreden gelen includeları otomatik basıyo.
         }
     }
 }

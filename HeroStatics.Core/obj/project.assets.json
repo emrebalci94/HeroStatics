@@ -3402,11 +3402,11 @@
       "hideWarningsAndErrors": true
     },
     "restore": {
-      "projectUniqueName": "C:\\Users\\EXT02D13704\\Desktop\\Denemeler\\HeroStatics\\HeroStatics.Core\\HeroStatics.Core.csproj",
+      "projectUniqueName": "D:\\Github\\HeroStatics\\HeroStatics\\HeroStatics.Core\\HeroStatics.Core.csproj",
       "projectName": "HeroStatics.Core",
-      "projectPath": "C:\\Users\\EXT02D13704\\Desktop\\Denemeler\\HeroStatics\\HeroStatics.Core\\HeroStatics.Core.csproj",
+      "projectPath": "D:\\Github\\HeroStatics\\HeroStatics\\HeroStatics.Core\\HeroStatics.Core.csproj",
       "packagesPath": "C:\\Users\\EXT02D13704\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\EXT02D13704\\Desktop\\Denemeler\\HeroStatics\\HeroStatics.Core\\obj\\",
+      "outputPath": "D:\\Github\\HeroStatics\\HeroStatics\\HeroStatics.Core\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

@@ -20,8 +20,17 @@ namespace HeroStatics.Core.DataAccess
 
         T Get(Expression<Func<T, bool>> expression);
 
+
         IQueryable<T> GetQueryable();
+        /// <summary>
+        /// Queryable getirirken ayrıca gelmesini istediğiniz (birbiriyle ilişkili) tabloyu getirir.
+        /// </summary>
+        /// <param name="includes"></param>
+        /// <returns></returns>
+        IQueryable<T> GetQueryable(params Expression<Func<T, object>>[] includes);
         IQueryable<T> GetQueryable(Expression<Func<T, bool>> where);
         IQueryable<T> GetQueryableOrderBy<TKey>(Expression<Func<T, TKey>> orderBy, bool isDesc);
+
+        int GetListCount();
     }
 }

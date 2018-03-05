@@ -9,3 +9,14 @@ C:\Users\EXT02D13704\Desktop\Denemeler\HeroStatics\HeroStatics.Entity\obj\Debug\
 C:\Users\EXT02D13704\Desktop\Denemeler\HeroStatics\HeroStatics.Entity\obj\Debug\netcoreapp2.0\HeroStatics.Entity.AssemblyInfo.cs
 C:\Users\EXT02D13704\Desktop\Denemeler\HeroStatics\HeroStatics.Entity\obj\Debug\netcoreapp2.0\HeroStatics.Entity.dll
 C:\Users\EXT02D13704\Desktop\Denemeler\HeroStatics\HeroStatics.Entity\obj\Debug\netcoreapp2.0\HeroStatics.Entity.pdb
+D:\Github\HeroStatics\HeroStatics\HeroStatics.Entity\bin\Debug\netcoreapp2.0\HeroStatics.Entity.deps.json
+D:\Github\HeroStatics\HeroStatics\HeroStatics.Entity\bin\Debug\netcoreapp2.0\HeroStatics.Entity.dll
+D:\Github\HeroStatics\HeroStatics\HeroStatics.Entity\bin\Debug\netcoreapp2.0\HeroStatics.Entity.pdb
+D:\Github\HeroStatics\HeroStatics\HeroStatics.Entity\bin\Debug\netcoreapp2.0\HeroStatics.Core.dll
+D:\Github\HeroStatics\HeroStatics\HeroStatics.Entity\bin\Debug\netcoreapp2.0\HeroStatics.Core.pdb
+D:\Github\HeroStatics\HeroStatics\HeroStatics.Entity\obj\Debug\netcoreapp2.0\HeroStatics.Entity.csprojResolveAssemblyReference.cache
+D:\Github\HeroStatics\HeroStatics\HeroStatics.Entity\obj\Debug\netcoreapp2.0\HeroStatics.Entity.csproj.CoreCompileInputs.cache
+D:\Github\HeroStatics\HeroStatics\HeroStatics.Entity\obj\Debug\netcoreapp2.0\HeroStatics.Entity.AssemblyInfoInputs.cache
+D:\Github\HeroStatics\HeroStatics\HeroStatics.Entity\obj\Debug\netcoreapp2.0\HeroStatics.Entity.AssemblyInfo.cs
+D:\Github\HeroStatics\HeroStatics\HeroStatics.Entity\obj\Debug\netcoreapp2.0\HeroStatics.Entity.dll
+D:\Github\HeroStatics\HeroStatics\HeroStatics.Entity\obj\Debug\netcoreapp2.0\HeroStatics.Entity.pdb

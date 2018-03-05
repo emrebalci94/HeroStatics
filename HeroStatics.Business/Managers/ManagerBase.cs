@@ -1,7 +1,10 @@
 ﻿using HeroStatics.Core.DataAccess;
 using HeroStatics.Core.Entities;
+using Microsoft.EntityFrameworkCore;
 using System;
 using System.Collections.Generic;
+using System.Linq;
+using System.Linq.Expressions;
 using System.Text;
 
 namespace HeroStatics.Business.Managers
@@ -19,12 +22,12 @@ namespace HeroStatics.Business.Managers
             return _repository.GetList();
         }
 
-        public TEntity Get(int id)
+        public TEntity Get(Expression<Func<TEntity,bool>> expression)
         {
-            return _repository.Get(p => p.Id == id);
+            return _repository.Get(expression);
         }
 
-        public bool Insert(TEntity entity)
+        public virtual bool Insert(TEntity entity)
         {
             return _repository.Insert(entity);
         }
@@ -37,6 +40,12 @@ namespace HeroStatics.Business.Managers
         public bool Delete(TEntity entity)
         {
             return _repository.Delete(entity);
+        }
+
+     
+        public IQueryable<TEntity> GetQueryable(params Expression<Func<TEntity, object>>[] includes)
+        {
+            return _repository.GetQueryable(includes);
         }
     }
 }

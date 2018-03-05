@@ -11,3 +11,16 @@ C:\Users\EXT02D13704\Desktop\Denemeler\HeroStatics\HeroStatics.Business\bin\Debu
 C:\Users\EXT02D13704\Desktop\Denemeler\HeroStatics\HeroStatics.Business\bin\Debug\netcoreapp2.0\HeroStatics.Core.pdb
 C:\Users\EXT02D13704\Desktop\Denemeler\HeroStatics\HeroStatics.Business\bin\Debug\netcoreapp2.0\HeroStatics.Entity.dll
 C:\Users\EXT02D13704\Desktop\Denemeler\HeroStatics\HeroStatics.Business\bin\Debug\netcoreapp2.0\HeroStatics.Entity.pdb
+D:\Github\HeroStatics\HeroStatics\HeroStatics.Business\bin\Debug\netcoreapp2.0\HeroStatics.Business.deps.json
+D:\Github\HeroStatics\HeroStatics\HeroStatics.Business\bin\Debug\netcoreapp2.0\HeroStatics.Business.dll
+D:\Github\HeroStatics\HeroStatics\HeroStatics.Business\bin\Debug\netcoreapp2.0\HeroStatics.Business.pdb
+D:\Github\HeroStatics\HeroStatics\HeroStatics.Business\bin\Debug\netcoreapp2.0\HeroStatics.Core.dll
+D:\Github\HeroStatics\HeroStatics\HeroStatics.Business\bin\Debug\netcoreapp2.0\HeroStatics.Entity.dll
+D:\Github\HeroStatics\HeroStatics\HeroStatics.Business\bin\Debug\netcoreapp2.0\HeroStatics.Core.pdb
+D:\Github\HeroStatics\HeroStatics\HeroStatics.Business\bin\Debug\netcoreapp2.0\HeroStatics.Entity.pdb
+D:\Github\HeroStatics\HeroStatics\HeroStatics.Business\obj\Debug\netcoreapp2.0\HeroStatics.Business.csprojResolveAssemblyReference.cache
+D:\Github\HeroStatics\HeroStatics\HeroStatics.Business\obj\Debug\netcoreapp2.0\HeroStatics.Business.csproj.CoreCompileInputs.cache
+D:\Github\HeroStatics\HeroStatics\HeroStatics.Business\obj\Debug\netcoreapp2.0\HeroStatics.Business.AssemblyInfoInputs.cache
+D:\Github\HeroStatics\HeroStatics\HeroStatics.Business\obj\Debug\netcoreapp2.0\HeroStatics.Business.AssemblyInfo.cs
+D:\Github\HeroStatics\HeroStatics\HeroStatics.Business\obj\Debug\netcoreapp2.0\HeroStatics.Business.dll
+D:\Github\HeroStatics\HeroStatics\HeroStatics.Business\obj\Debug\netcoreapp2.0\HeroStatics.Business.pdb

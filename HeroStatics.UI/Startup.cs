@@ -12,7 +12,7 @@ using Microsoft.Extensions.Configuration;
 using HeroStatics.Core.DataAccess;
 using HeroStatics.Core.DataAccess.EntityFreamework;
 using HeroStatics.Business.Services;
-using HeroStatics.Business.EntityFramework.Managers;
+using HeroStatics.Business.Managers.EntityFramework;
 
 namespace HeroStatics.UI
 {
@@ -36,6 +36,7 @@ namespace HeroStatics.UI
             services.AddTransient(typeof(IRepository<>), typeof(EfRepositoryBase<>)); //Repository Dependency Yaptık.
             services.AddScoped<DbContext, DatabaseContext>();
             services.AddScoped<IHeroServices, EfHeroManager>();
+            services.AddScoped<ICategoryServices, EfCategoryManager>();
             services.AddMvc();
         }
 
@@ -46,7 +47,7 @@ namespace HeroStatics.UI
             {
                 app.UseDeveloperExceptionPage();
             }
-
+            app.UseStaticFiles();// wwwroot altındaki css ve scriptleri görsün diye
             app.UseMvc(routes =>
             {
                 routes.MapRoute(

@@ -2,6 +2,15 @@
   "version": 3,
   "targets": {
     ".NETCoreApp,Version=v2.0": {
+      "FakeData/1.0.0": {
+        "type": "package",
+        "compile": {
+          "lib/FakeData.dll": {}
+        },
+        "runtime": {
+          "lib/FakeData.dll": {}
+        }
+      },
       "Libuv/1.10.0": {
         "type": "package",
         "dependencies": {
@@ -5092,6 +5101,17 @@
     }
   },
   "libraries": {
+    "FakeData/1.0.0": {
+      "sha512": "hHp5a569gbVo7Fg/whOeDSFExhaB/cidqDTUTFxQDphsMeQhuS0AEyxfg1WunJz5W4ZOPdwEqhQJqEfUCnl9Ow==",
+      "type": "package",
+      "path": "fakedata/1.0.0",
+      "files": [
+        "fakedata.1.0.0.nupkg.sha512",
+        "fakedata.nuspec",
+        "lib/FakeData.dll",
+        "lib/FakeData.pdb"
+      ]
+    },
     "Libuv/1.10.0": {
       "sha512": "GsCf4q+eyaI49rCPlgYxdxa1SQCysXFFdSJWdstrwxytg4+VPYLYrXD4AT2rjHVJ+UF7SSWX9CapWEYaU4ejVQ==",
       "type": "package",
@@ -13197,6 +13217,7 @@
   },
   "projectFileDependencyGroups": {
     ".NETCoreApp,Version=v2.0": [
+      "FakeData >= 1.0.0",
       "HeroStatics.Business >= 1.0.0",
       "HeroStatics.DataAccess >= 1.0.0",
       "HeroStatics.Entity >= 1.0.0",
@@ -13219,11 +13240,11 @@
       "hideWarningsAndErrors": true
     },
     "restore": {
-      "projectUniqueName": "C:\\Users\\EXT02D13704\\Desktop\\Denemeler\\HeroStatics\\HeroStatics.UI\\HeroStatics.UI.csproj",
+      "projectUniqueName": "D:\\Github\\HeroStatics\\HeroStatics\\HeroStatics.UI\\HeroStatics.UI.csproj",
       "projectName": "HeroStatics.UI",
-      "projectPath": "C:\\Users\\EXT02D13704\\Desktop\\Denemeler\\HeroStatics\\HeroStatics.UI\\HeroStatics.UI.csproj",
+      "projectPath": "D:\\Github\\HeroStatics\\HeroStatics\\HeroStatics.UI\\HeroStatics.UI.csproj",
       "packagesPath": "C:\\Users\\EXT02D13704\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\EXT02D13704\\Desktop\\Denemeler\\HeroStatics\\HeroStatics.UI\\obj\\",
+      "outputPath": "D:\\Github\\HeroStatics\\HeroStatics\\HeroStatics.UI\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -13242,14 +13263,14 @@
       "frameworks": {
         "netcoreapp2.0": {
           "projectReferences": {
-            "C:\\Users\\EXT02D13704\\Desktop\\Denemeler\\HeroStatics\\HeroStatics.Entity\\HeroStatics.Entity.csproj": {
-              "projectPath": "C:\\Users\\EXT02D13704\\Desktop\\Denemeler\\HeroStatics\\HeroStatics.Entity\\HeroStatics.Entity.csproj"
+            "D:\\Github\\HeroStatics\\HeroStatics\\HeroStatics.Entity\\HeroStatics.Entity.csproj": {
+              "projectPath": "D:\\Github\\HeroStatics\\HeroStatics\\HeroStatics.Entity\\HeroStatics.Entity.csproj"
             },
-            "C:\\Users\\EXT02D13704\\Desktop\\Denemeler\\HeroStatics\\HeroStatics.DataAccess\\HeroStatics.DataAccess.csproj": {
-              "projectPath": "C:\\Users\\EXT02D13704\\Desktop\\Denemeler\\HeroStatics\\HeroStatics.DataAccess\\HeroStatics.DataAccess.csproj"
+            "D:\\Github\\HeroStatics\\HeroStatics\\HeroStatics.DataAccess\\HeroStatics.DataAccess.csproj": {
+              "projectPath": "D:\\Github\\HeroStatics\\HeroStatics\\HeroStatics.DataAccess\\HeroStatics.DataAccess.csproj"
             },
-            "C:\\Users\\EXT02D13704\\Desktop\\Denemeler\\HeroStatics\\HeroStatics.Business\\HeroStatics.Business.csproj": {
-              "projectPath": "C:\\Users\\EXT02D13704\\Desktop\\Denemeler\\HeroStatics\\HeroStatics.Business\\HeroStatics.Business.csproj"
+            "D:\\Github\\HeroStatics\\HeroStatics\\HeroStatics.Business\\HeroStatics.Business.csproj": {
+              "projectPath": "D:\\Github\\HeroStatics\\HeroStatics\\HeroStatics.Business\\HeroStatics.Business.csproj"
             }
           }
         }
@@ -13263,6 +13284,10 @@
     "frameworks": {
       "netcoreapp2.0": {
         "dependencies": {
+          "FakeData": {
+            "target": "Package",
+            "version": "[1.0.0, )"
+          },
           "Microsoft.AspNetCore.All": {
             "target": "Package",
             "version": "[2.0.5, )"
@@ -13300,5 +13325,17 @@
         "warn": true
       }
     }
-  }
+  },
+  "logs": [
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'FakeData 1.0.0' was restored using '.NETFramework,Version=v4.6.1' instead of the project target framework '.NETCoreApp,Version=v2.0'. This package may not be fully compatible with your project.",
+      "libraryId": "FakeData",
+      "targetGraphs": [
+        ".NETCoreApp,Version=v2.0"
+      ]
+    }
+  ]
 }

@@ -3,15 +3,86 @@
     ViewData["Title"] = "Index";
 }
 
-<h2>Index</h2>
-<ul>
-    @foreach (var item in Model)
-    {
-        <li>@item.Name</li>
-    }
-</ul>
+<h2>Hero Denemeler</h2>
+@if (TempData["mesaj"] != null)
+{
 
-    <p>@TempData["mesaj"]</p>
+    <div class="alert alert-info" role="alert">
+        @TempData["mesaj"]
+    </div>
+}
 
-<a asp-controller="Home" asp-action="Index">Deneme</a>
-<a asp-controller="Home" asp-action="YeniHero">Yeni Hero</a>
+
+
+<div class="col-md-12">
+    <a asp-controller="Home" asp-action="Index" class="badge badge-info">Link Deneme</a>
+    <a asp-controller="Home" asp-action="YeniHero" class="badge badge-primary"><i class="fa fa-plus-circle"></i> Random Hero Ekle </a>
+    <a asp-controller="Home" asp-action="DeleteHero" class="badge badge-success"><i class="fa fa-edit"></i> Random Hero Düzenle</a>
+
+    <a asp-controller="Home" asp-action="DeleteHero" class="badge badge-warning"><i class="fa fa-remove"></i> Random Hero Sil</a>
+    @await Component.InvokeAsync("NewHeroWithModal")
+</div>
+<hr /><br />
+<div class="container-fluid">
+    <div class="row">
+        @*<table class="table table-dark table-hover table-striped ">
+                <thead class="text-capitalize text-primary">
+                    <tr>
+                        <td class="text-center">Name</td>
+                        <td>Category</td>
+                        <td>Power</td>
+                        <td>Ability</td>
+                    </tr>
+                </thead>
+                <tbody>
+                    @foreach (var item in Model)
+                {
+                    <tr>
+                        <td class="text-center"><i class="fa fa-user-circle"></i> @item.Name</td>
+                        <td>@item.Category.Name</td>
+                        <td>
+                            <div class="progress">
+                                <div class="progress-bar bg-danger" role="progressbar" style="width: @(item.Power)%;" aria-valuenow="@(item.Power)" aria-valuemin="0" aria-valuemax="100">@(item.Power)%</div>
+                            </div>
+                        </td>
+                        <td>
+                            <div class="progress">
+                                <div class="progress-bar bg-success" role="progressbar" style="width: @(item.Ability)%;" aria-valuenow="@(item.Ability)" aria-valuemin="0" aria-valuemax="100">@(item.Ability)%</div>
+                            </div>
+                        </td>
+                    </tr>
+            }
+                </tbody>
+            </table>*@
+        @foreach (var item in Model)
+        {
+            <div class="col-md-2">
+                <div class="card mb-2">
+                    <img class=" img-thumbnail rounded-circle" src="@item.PictureUrl" alt="@item.Name">
+                    <div class="card-body">
+                        <h6 class="card-title">@item.Name ( @(item.Category.Name) ) </h6>
+                        <p class="card-text">
+                            Power:
+                        </p>
+                        <div class="progress">
+                            <div class="progress-bar bg-danger" role="progressbar" style="width: @(item.Power)%;" aria-valuenow="@(item.Power)" aria-valuemin="0" aria-valuemax="100">@(item.Power)%</div>
+                        </div>
+                        <p class="card-text">
+                            Ability:
+                        </p>
+                        <div class="progress">
+                            <div class="progress-bar bg-success" role="progressbar" style="width: @(item.Ability)%;" aria-valuenow="@(item.Ability)" aria-valuemin="0" aria-valuemax="100">@(item.Ability)%</div>
+                        </div>
+                        <hr />
+                        <div class="text-right">
+
+                            <a asp-controller="Home" asp-action="DeleteHero" asp-route-id="@item.Id" class="btn btn-danger"><i class="fa fa-remove"></i> Sil</a>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+        }
+    </div>
+</div>
